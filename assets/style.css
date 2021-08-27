@@ -5,7 +5,7 @@ body{
 }
 
 *{
-    background-color:#cb202d;
+  font-family: 'Glory', sans-serif;  
 }
 
 .container{
@@ -13,11 +13,40 @@ body{
     flex-flow: column;
     align-items: center;
     justify-content: center;
+    height: 100vh;background-color:#cb202d;
+  
     
 }
 
 .card{
     display: flex;
     justify-content: space-between;
+    column-gap: 15px;
+    background-color: whitesmoke;
+    padding: 15px;
+    border-radius: 6px;
+    max-width: 650px;
+
+}
+
+.card__img{
+    width: 150;
+    height: 150;
+    object-fit: cover;
+    background-color: whitesmoke;
     
+}
+ 
+.descripition{
+    flex-grow: 1;
+    background-color: whitesmoke;
+}
+.card__title{
+    background-color: whitesmoke;
+    font-size: Bold 700;
+}
+
+.card__desc{
+    background-color: whitesmoke;
+    flex-wrap: wrap-reverse;
 }
