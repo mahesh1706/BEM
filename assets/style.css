@@ -7,3 +7,17 @@ body{
 *{
     background-color:#cb202d;
 }
+
+.container{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.card{
+    display: flex;
+    justify-content: space-between;
+    
+}
