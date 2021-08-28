@@ -30,9 +30,7 @@ body{
  
 }
 
-.page-title:hover{
-  
-}
+
 
 .page-img__png--1{
     position: relative;
@@ -110,9 +108,7 @@ body{
     color: gray;
 }
 
-.card__cost {
-    ;
-}
+
 
 .card__cost--rupee {
 position:relative;
@@ -132,10 +128,7 @@ display: inline;
     background-color:#0c0b0b;
     color: whitesmoke;
     padding: 3px;
-    border:1px solid rgb(214, 20, 20)36, 103, 103);
-  
-
-  
+    border:1px solid rgb(240, 5, 5)36, 103, 103 
 }
 
 .card__button--add:hover{
