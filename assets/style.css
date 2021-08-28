@@ -25,12 +25,13 @@ body{
     color: whitesmoke;
     background-color:#cb202d;
     font-size: 60px;
+    text-shadow: 8px 2px 8px 8px rgb(5, 5, 5);
     
  
 }
 
 .page-title:hover{
-    box-shadow: 2px  rgb(5, 5, 5);
+  
 }
 
 .page-img__png--1{
@@ -87,10 +88,13 @@ body{
     bottom: 20px;
 }
 .card__desc--link{
-    font-size:16px;
     color: red;
     cursor: pointer;
     text-decoration: none;
+    text-decoration-line: none;
+}
+.card__desc--link:hover{
+    font-size: 17px;
 }
 
 
@@ -123,16 +127,19 @@ display: inline;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.card__button>button{
+.card__button--add{
     border-radius: 10px;
-    background-color:#cb202d;
+    background-color:#0c0b0b;
     color: whitesmoke;
-    border:2px solid black;
+    padding: 3px;
+    border:1px solid rgb(214, 20, 20)36, 103, 103);
+  
 
   
 }
 
-.card__button>button:hover{
+.card__button--add:hover{
     cursor: pointer;
     color: whitesmoke;
+    background-color: blue;
 }
