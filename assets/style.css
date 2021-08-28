@@ -9,19 +9,21 @@ body{
 }
 
 .container{
+ 
     display: flex;
     flex-flow: column;
     align-items: center;
     justify-content: center;
-    height: 100vh;background-color:#cb202d;
+    height: 90vh;background-color:#cb202d;
   
     
 }
 
 .page-title{
-    margin-top: 0;
-    margin-bottom: 0;
+    margin-top: 0px;
+    margin-bottom: 2px;
      padding-left: 410px;
+     top: 0;
     color: whitesmoke;
     background-color:#cb202d;
     font-size: 60px;
