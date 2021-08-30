@@ -81,9 +81,13 @@ body{
     font-weight:bolder;
 }
 
+/*--Food-card__title--hover--*/
+
 .card__title:hover {
     cursor: pointer;
 }
+
+/*--Food-card__desc--*/
 
 .card__desc{
     background-color: whitesmoke;
@@ -91,12 +95,16 @@ body{
     position: relative;
     bottom: 20px;
 }
+
+/*--Food-card__desc--link--*/
 .card__desc--link{
     color: red;
     cursor: pointer;
     text-decoration: none;
     text-decoration-line: none;
 }
+
+
 .card__desc--link:hover{
     font-size: 17px;
 }
