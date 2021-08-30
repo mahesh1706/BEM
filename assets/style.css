@@ -1,4 +1,13 @@
 /* -- * CSS --*/
+
+@media all and (max-width:480px){
+    .mobile{
+        width: 100%;
+        display: block;
+    }
+}
+
+
 body{
     padding: 0;
     margin: 0;
