@@ -150,6 +150,7 @@ body{
     cursor: pointer;
     color: whitesmoke;
     background-color: blue;
+    font-size:18px;
 }
 
 /*--End Food-card--*/
