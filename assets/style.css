@@ -104,11 +104,7 @@ body{
     text-decoration-line: none;
 }
 
-
-.card__desc--link:hover{
-    font-size: 17px;
-}
-
+/*--Food-card__rating--*/
 
 .card__rating {
     display: flex;
@@ -118,24 +114,28 @@ body{
     margin-top: 5px;
 }
 
+/*--Food-card__rating--votes--*/
+
 .card__rating--votes {
     color: gray;
 }
 
 
+/*--Food-card__cot--rupee--*/
 
 .card__cost--rupee {
-position:relative;
-left: 90px;
-bottom: 50px;    
-
-border-radius: 8px;
-    font-size: 28px;
-    font-weight: bolder;
-    color:red;
-display: inline;
-    font-family: Arial, Helvetica, sans-serif;
+   position:relative;
+   left: 90px;
+   bottom: 50px;    
+   border-radius: 8px;
+   font-size: 28px;
+   font-weight: bolder;
+   color:red;
+   display: inline;
+   font-family: Arial, Helvetica, sans-serif;
 }
+
+/*--Food-card__button--add--*/
 
 .card__button--add{
     border-radius: 10px;
@@ -145,12 +145,17 @@ display: inline;
     border:1px solid rgb(240, 5, 5)36, 103, 103 
 }
 
+/*--Food-card__button--add__hover*/
 .card__button--add:hover{
     cursor: pointer;
     color: whitesmoke;
     background-color: blue;
 }
 
+/*--End Food-card--*/
+
+
+/* image */
 
 .page-img__png--1{
     position: relative;
@@ -162,3 +167,5 @@ display: inline;
     left: 500px;
     bottom: 0;
 }
+
+/* End image */
