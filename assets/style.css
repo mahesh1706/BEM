@@ -1,3 +1,4 @@
+/* -- * CSS --*/
 body{
     padding: 0;
     margin: 0;
@@ -7,7 +8,9 @@ body{
 *{
   font-family: 'Glory', sans-serif;  
 }
+/*--End--*/
 
+/*-- container --*/
 .container{
  
     display: flex;
@@ -18,7 +21,9 @@ body{
   
     
 }
+/* -- End container --*/
 
+/*-- Page Title --*/
 .page-title{
     margin-top: 0px;
     margin-bottom: 2px;
@@ -28,23 +33,11 @@ body{
     background-color:#cb202d;
     font-size: 60px;
     text-shadow: 8px 2px 8px 8px rgb(5, 5, 5);
-   
- 
 }
+/*-- End ---*/
 
 
-
-.page-img__png--1{
-    position: relative;
-    right: 500px;
-    bottom: 0;
-}
-.page-img__png--2{
-    position: relative;
-    left: 500px;
-    bottom: 0;
-}
-
+/*--Food card--*/
 .card{
    
     display: flex;
@@ -57,9 +50,14 @@ body{
     max-height: 150px;
 
 }
+
+/*--Food-card__hover--*/
+
 .card:hover {
     box-shadow: 2px 2px 8px 8px rgb(5, 5, 5);
 }
+
+/*--Food-card__image--*/
 
 .card__img{
     width: 150;
@@ -69,14 +67,20 @@ body{
     
 }
  
+/*--Food-card__content--*/
+
 .card__content{
     flex-grow: 1;
     background-color: whitesmoke;
 }
+
+/*--Food-card__Title--*/
+
 .card__title{
     background-color: whitesmoke;
     font-weight:bolder;
 }
+
 .card__title:hover {
     cursor: pointer;
 }
@@ -137,4 +141,16 @@ display: inline;
     cursor: pointer;
     color: whitesmoke;
     background-color: blue;
+}
+
+
+.page-img__png--1{
+    position: relative;
+    right: 500px;
+    bottom: 0;
+}
+.page-img__png--2{
+    position: relative;
+    left: 500px;
+    bottom: 0;
 }
